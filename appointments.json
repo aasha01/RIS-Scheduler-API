@@ -1,0 +1,46 @@
+[ {
+  "patient" : {
+    "firstName" : "John",
+    "lastName" : "Doe",
+    "gender" : "Male",
+    "dateOfBirth" : "1990-05-12",
+    "phone" : "1234567890",
+    "email" : "john.doe@example.com",
+    "address" : "123 Main St, Springfield"
+  },
+  "physician" : "Dr. Smith",
+  "provider" : "City Hospital",
+  "exam" : "MRI Brain",
+  "appointmentDate" : "2025-10-01",
+  "slotDateTime" : "2025-10-01T10:00:00"
+}, {
+  "patient" : {
+    "firstName" : "David",
+    "lastName" : "John",
+    "gender" : "Male",
+    "dateOfBirth" : "2010-05-12",
+    "phone" : "11222553366",
+    "email" : "david.john@example.com",
+    "address" : "david.john Main St, Springfield"
+  },
+  "physician" : "Dr. Smith",
+  "provider" : "City Hospital",
+  "exam" : "MRI Brain",
+  "appointmentDate" : "2025-10-01",
+  "slotDateTime" : "2025-10-01T10:00:00"
+}, {
+  "patient" : {
+    "firstName" : "David",
+    "lastName" : "John",
+    "gender" : "Male",
+    "dateOfBirth" : null,
+    "phone" : null,
+    "email" : null,
+    "address" : null
+  },
+  "physician" : "Dr. Smith",
+  "provider" : "City Hospital",
+  "exam" : "MRI Brain",
+  "appointmentDate" : "2025-10-01",
+  "slotDateTime" : "2025-10-01T10:00:00"
+} ]
