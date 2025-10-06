@@ -11,6 +11,7 @@ import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Random;
 
 @RestController
 @RequestMapping("/appointments")
@@ -31,6 +32,7 @@ public class AppointmentController {
             );
         }
 
+        appointment.setId(String.valueOf(100000 + new Random().nextInt(900000)));
         appointments.add(appointment);
         objectMapper.writerWithDefaultPrettyPrinter().writeValue(storageFile, appointments);
 
@@ -44,5 +46,26 @@ public class AppointmentController {
             return new ArrayList<>();
         }
         return Arrays.asList(objectMapper.readValue(storageFile, Appointment[].class));
+    }
+
+    // Delete appointment
+    @DeleteMapping("/{id}")
+    public ResponseEntity<String> deleteAppointment(@PathVariable String id) throws IOException {
+        if (!storageFile.exists() || storageFile.length() == 0) {
+            return ResponseEntity.notFound().build();
+        }
+
+        List<Appointment> appointments = new ArrayList<>(
+                Arrays.asList(objectMapper.readValue(storageFile, Appointment[].class))
+        );
+
+        boolean removed = appointments.removeIf(appointment -> id.equals(appointment.getId()));
+        
+        if (!removed) {
+            return ResponseEntity.notFound().build();
+        }
+
+        objectMapper.writerWithDefaultPrettyPrinter().writeValue(storageFile, appointments);
+        return ResponseEntity.ok("✅ Appointment deleted!");
     }
 }

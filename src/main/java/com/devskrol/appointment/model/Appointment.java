@@ -1,7 +1,15 @@
 package com.devskrol.appointment.model;
 
-public class Appointment { private Patient patient; private String physician; private String provider; private String exam; private String appointmentDate;
+public class Appointment {
+    private String id;
+    private Patient patient;
+    private String physician;
+    private String provider;
+    private String exam;
+    private String appointmentDate;
     private String slotDateTime;
+    public String getId() { return id; }
+    public void setId(String id) { this.id = id; }
     public Patient getPatient() { return patient; }
     public void setPatient(Patient patient) { this.patient = patient; }
     public String getPhysician() { return physician; }

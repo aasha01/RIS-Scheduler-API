@@ -1,106 +1,65 @@
 [ {
+  "id" : "996823",
   "patient" : {
-    "firstName" : "John",
-    "lastName" : "Doe",
-    "gender" : "Male",
-    "dateOfBirth" : "1990-05-12",
-    "phone" : "1234567890",
-    "email" : "john.doe@example.com",
-    "address" : "123 Main St, Springfield"
+    "firstName" : "Sarah",
+    "lastName" : "Johnson",
+    "gender" : "Female",
+    "dateOfBirth" : "1985-03-22",
+    "phone" : "5551234567",
+    "email" : "sarah.johnson@email.com",
+    "address" : "456 Oak Avenue, Downtown"
   },
-  "physician" : "Dr. Smith",
-  "provider" : "City Hospital",
-  "exam" : "MRI Brain",
-  "appointmentDate" : "2025-10-01",
-  "slotDateTime" : "2025-10-01T10:00:00"
+  "physician" : "Dr. Williams",
+  "provider" : "Metro Medical Center",
+  "exam" : "CT Scan Chest",
+  "appointmentDate" : "2025-10-15",
+  "slotDateTime" : "2025-10-15T14:30:00"
 }, {
+  "id" : "261199",
   "patient" : {
-    "firstName" : "David",
-    "lastName" : "John",
+    "firstName" : "Michael",
+    "lastName" : "Brown",
     "gender" : "Male",
-    "dateOfBirth" : "2010-05-12",
-    "phone" : "11222553366",
-    "email" : "david.john@example.com",
-    "address" : "david.john Main St, Springfield"
+    "dateOfBirth" : "1978-11-08",
+    "phone" : "5559876543",
+    "email" : "m.brown@gmail.com",
+    "address" : "789 Pine Street, Westside"
   },
-  "physician" : "Dr. Smith",
-  "provider" : "City Hospital",
-  "exam" : "MRI Brain",
-  "appointmentDate" : "2025-10-01",
-  "slotDateTime" : "2025-10-01T10:00:00"
+  "physician" : "Dr. Davis",
+  "provider" : "Regional Health",
+  "exam" : "Ultrasound Abdomen",
+  "appointmentDate" : "2025-10-20",
+  "slotDateTime" : "2025-10-20T09:15:00"
 }, {
+  "id" : "130692",
   "patient" : {
-    "firstName" : "David",
-    "lastName" : "John",
-    "gender" : "Male",
-    "dateOfBirth" : null,
-    "phone" : null,
-    "email" : null,
-    "address" : null
+    "firstName" : "Emily",
+    "lastName" : "Wilson",
+    "gender" : "Female",
+    "dateOfBirth" : "1992-07-14",
+    "phone" : "5552468135",
+    "email" : "emily.wilson@outlook.com",
+    "address" : "321 Maple Drive, Easttown"
   },
-  "physician" : "Dr. Smith",
-  "provider" : "City Hospital",
-  "exam" : "MRI Brain",
-  "appointmentDate" : "2025-10-01",
-  "slotDateTime" : "2025-10-01T10:00:00"
+  "physician" : "Dr. Martinez",
+  "provider" : "University Hospital",
+  "exam" : "X-Ray Knee",
+  "appointmentDate" : "2025-10-25",
+  "slotDateTime" : "2025-10-25T11:00:00"
 }, {
+  "id" : "368759",
   "patient" : {
-    "firstName" : "John",
-    "lastName" : "Doe",
+    "firstName" : "Robert",
+    "lastName" : "Taylor",
     "gender" : "Male",
-    "dateOfBirth" : "1990-05-12",
-    "phone" : "1234567890",
-    "email" : "john.doe@example.com",
-    "address" : "123 Main St, Springfield"
+    "dateOfBirth" : "1965-12-03",
+    "phone" : "5553691470",
+    "email" : "robert.taylor@yahoo.com",
+    "address" : "654 Cedar Lane, Northside"
   },
-  "physician" : "Dr. Smith",
-  "provider" : "City Hospital",
-  "exam" : "MRI Brain",
-  "appointmentDate" : "2025-10-01",
-  "slotDateTime" : "2025-10-01T10:00:00"
-}, {
-  "patient" : {
-    "firstName" : "John",
-    "lastName" : "Doe",
-    "gender" : "Male",
-    "dateOfBirth" : "1990-05-12",
-    "phone" : "1234567890",
-    "email" : "john.doe@example.com",
-    "address" : "123 Main St, Springfield"
-  },
-  "physician" : "Dr. Smith",
-  "provider" : "City Hospital",
-  "exam" : "MRI Brain",
-  "appointmentDate" : "2025-10-01",
-  "slotDateTime" : "2025-10-01T10:00:00"
-}, {
-  "patient" : {
-    "firstName" : "",
-    "lastName" : "Patname",
-    "gender" : "Male",
-    "dateOfBirth" : null,
-    "phone" : "",
-    "email" : "",
-    "address" : ""
-  },
-  "physician" : "test",
-  "provider" : "test",
-  "exam" : "X-Ray",
-  "appointmentDate" : "2025-10-08",
-  "slotDateTime" : "2025-10-08T01:26"
-}, {
-  "patient" : {
-    "firstName" : "",
-    "lastName" : "newPat",
-    "gender" : "Male",
-    "dateOfBirth" : null,
-    "phone" : "",
-    "email" : "",
-    "address" : ""
-  },
-  "physician" : "Lawrence",
-  "provider" : "MAH",
-  "exam" : "X-Ray",
-  "appointmentDate" : "2025-10-08",
-  "slotDateTime" : "2025-10-08T01:33"
+  "physician" : "Dr. Anderson",
+  "provider" : "Community Clinic",
+  "exam" : "MRI Spine",
+  "appointmentDate" : "2025-11-02",
+  "slotDateTime" : "2025-11-02T16:45:00"
 } ]
